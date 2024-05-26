@@ -11,6 +11,7 @@ body {
     margin-bottom: 16px;
     border-radius: 15px;
     box-shadow: 1px 1px 5px rgb(163, 131, 163);
+    cursor: pointer;
 
 }
 
@@ -22,4 +23,18 @@ body {
 
 .icon {
     padding-right: 15px;
+}
+
+.icon.active {
+    transform: rotate(180deg);
+}
+
+.answer {
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.answer.active {
+    max-height: fit-content;
 }
