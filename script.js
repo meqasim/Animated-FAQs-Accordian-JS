@@ -1,4 +1,4 @@
-const accordianJS = document.querySelectorAll('accordian');
+const accordianJS = document.querySelectorAll('.accordian');
 
 accordianJS.forEach(accordian => {
     const icon = accordian.querySelector('.icon')
