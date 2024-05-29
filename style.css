@@ -38,6 +38,3 @@ body {
     transition: max-height 0.2s;
 }
 
-.answer.active {
-    max-height: fit-content;
-}
